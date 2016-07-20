@@ -31,6 +31,7 @@ variable "aws_region" {
   type = "string"
   default = "us-east-1"
 }
+dsaf$@
 
 provider "aws" {
   access_key = "${var.aws_access_key}"
